@@ -19,18 +19,14 @@ import lombok.ToString;
 @Entity
 public class ExampleObject {
 
-//	@Id
-//	@GeneratedValue(strategy = GenerationType.IDENTITY)
-//	private int _id;
-	
 	@Id
-	@GeneratedValue
 	private ObjectId _id;
-	
-	
-	public ObjectId getObjectId() {
+
+	public ObjectId get_id() {
 		return _id;
 	}
-	
 
+	public void set_id(ObjectId objectId) {
+		this._id = objectId;
+	}
 }

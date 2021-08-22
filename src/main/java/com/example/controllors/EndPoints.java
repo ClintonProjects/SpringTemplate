@@ -17,15 +17,9 @@ public class EndPoints {
 
 	@Autowired
 	ServicesExample servicesExample;
-
-	// http://localhost:8080/apis/getTest
-//	@GetMapping("/getTest")
-//	public String getString() {
-//		return "The server is online";
-//	}
 	
 	// http://localhost:8080/apis/getTest
-	@GetMapping("/getAll")
+	@GetMapping("/getTest")
 	public List<ExampleObject> getAll() {
 		return servicesExample.getAll();
 	}
