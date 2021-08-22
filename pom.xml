@@ -45,6 +45,11 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>5.3.9</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
 
 
 
@@ -79,13 +84,13 @@
 			<version>2.1.0</version>
 			<scope>compile</scope>
 		</dependency>
-		
 
-	<dependency>
-		<groupId>org.projectlombok</groupId>
-		<artifactId>lombok</artifactId>
-		<scope>provided</scope>
-	</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
